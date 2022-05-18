@@ -1,1 +1,68 @@
-//
+@import "_resets";
+@import "_variables";
+
+header {
+    ul {
+        padding-top: 39.5px;
+
+        a {
+            font-size: 13px;
+            font-weight: 700;
+            color: $text-color-dark;
+            padding-bottom: 54px;
+            transition: all 0.25s linear;
+
+            &:hover {
+                color: $background-color-blue;
+                border-bottom: 5px solid $background-color-blue;
+            }
+        }
+    }
+}
+
+footer {
+    .jumbo_footer {
+        background-image: url(images/footer-bg.jpg);
+        background-repeat: repeat-x;
+    }
+
+    .container_footer_list {
+        h3 {
+            color: $text-color-white;
+        }
+
+        a {
+            color: $text-color-grey;
+
+            &:hover {
+                color: $text-color-white;
+            }
+        }
+    }
+
+    .container_logo_dc {
+        height: 482px;
+    }
+
+    .logo_dc_bg {
+        background-image: url(../images/dc-logo-bg.png);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .footer_socials {
+        background-color: $background-color-dark-grey;
+
+        .sign_up_footer {
+            color: $text-color-white;
+            padding: 10px;
+            border: 2px solid $background-color-blue;
+        }
+
+        .follow_footer {
+            font-size: 20px;
+            font-weight: 600;
+            color: $background-color-blue;
+        }
+    }
+}
