@@ -62,19 +62,19 @@
             <div class="row align-items-center">
               <div class="col-auto follow_footer">FOLLOW US</div>
               <div class="col-auto">
-                <img src="../images/footer-facebook.png" alt="facebook" />
+                <img src="/images/footer-facebook.png" alt="facebook" />
               </div>
               <div class="col-auto">
-                <img src="../images/footer-twitter.png" alt="twitter" />
+                <img src="/images/footer-twitter.png" alt="twitter" />
               </div>
               <div class="col-auto">
-                <img src="../images/footer-youtube.png" alt="youtube" />
+                <img src="/images/footer-youtube.png" alt="youtube" />
               </div>
               <div class="col-auto">
-                <img src="../images/footer-pinterest.png" alt="pinterest" />
+                <img src="/images/footer-pinterest.png" alt="pinterest" />
               </div>
               <div class="col-auto">
-                <img src="../images/footer-periscope.png" alt="periscope" />
+                <img src="/images/footer-periscope.png" alt="periscope" />
               </div>
             </div>
           </div>

@@ -28,6 +28,7 @@ ul {
 header ul {
   padding-top: 39.5px;
 }
+
 header ul a {
   font-size: 13px;
   font-weight: 700;
@@ -35,42 +36,70 @@ header ul a {
   padding-bottom: 54px;
   transition: all 0.25s linear;
 }
+
 header ul a:hover {
   color: #0282f9;
   border-bottom: 5px solid #0282f9;
 }
 
+#jumbotron {
+  background-image: url("/images/jumbotron.jpg");
+  background-size: cover;
+  height: 350px;
+  position: relative;
+}
+
+#jumbotron .tag_series {
+  font-size: 16px;
+  color: white;
+  font-weight: 600;
+  background-color: #0282f9;
+  padding: 10px 15px;
+  position: absolute;
+  bottom: -22px;
+  left: 50px;
+}
+
 footer .jumbo_footer {
-  background-image: url(../../public/images/footer-bg.jpg);
+  background-image: url("/images/footer-bg.jpg");
   background-repeat: repeat-x;
 }
+
 footer .container_footer_list h3 {
   color: white;
 }
+
 footer .container_footer_list a {
   color: grey;
 }
+
 footer .container_footer_list a:hover {
   color: white;
 }
+
 footer .container_logo_dc {
   height: 482px;
 }
+
 footer .logo_dc_bg {
-  background-image: url(../../public/images/dc-logo-bg.png);
+  background-image: url("/images/dc-logo-bg.png");
   background-size: cover;
   background-position: center;
 }
+
 footer .footer_socials {
   background-color: #303030;
 }
+
 footer .footer_socials .sign_up_footer {
   color: white;
   padding: 10px;
   border: 2px solid #0282f9;
 }
+
 footer .footer_socials .follow_footer {
   font-size: 20px;
   font-weight: 600;
   color: #0282f9;
 }
+

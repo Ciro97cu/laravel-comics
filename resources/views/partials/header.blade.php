@@ -3,7 +3,7 @@
       <div class="row">
         <div class="col-sm-4">
           <div class="logo_wrapper">
-            <img src="../images/dc-logo.png" alt="logo-dc" />
+            <img src="/images/dc-logo.png" alt="logo-dc" />
           </div>
         </div>
         <div class="col-sm-8">

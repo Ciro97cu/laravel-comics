@@ -20,9 +20,27 @@ header {
     }
 }
 
+#jumbotron {
+    background-image: url("/images/jumbotron.jpg");
+    background-size: cover;
+    height: 350px;
+    position: relative;
+
+    .tag_series {
+        font-size: 16px;
+        color: $text-color-white;
+        font-weight: 600;
+        background-color: $background-color-blue;
+        padding: 10px 15px;
+        position: absolute;
+        bottom: -22px;
+        left: 50px;
+    }
+}
+
 footer {
     .jumbo_footer {
-        background-image: url(../../public/images/footer-bg.jpg);
+        background-image: url("/images/footer-bg.jpg");
         background-repeat: repeat-x;
     }
 
@@ -45,7 +63,7 @@ footer {
     }
 
     .logo_dc_bg {
-        background-image: url(../../public/images/dc-logo-bg.png);
+        background-image: url("/images/dc-logo-bg.png");
         background-size: cover;
         background-position: center;
     }
