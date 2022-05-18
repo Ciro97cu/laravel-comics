@@ -38,6 +38,27 @@ header {
     }
 }
 
+.container_bg_blue {
+    background-color: $background-color-blue;
+
+    .container_footer_images {
+        color: $text-color-white;
+        column-gap: 10px;
+
+        .wrapper_footer_images {
+            height: 50px;
+
+            img {
+                height: 100%;
+            }
+
+            .special_image {
+                height: 65%;
+            }
+        }
+    }
+}
+
 footer {
     .jumbo_footer {
         background-image: url("/images/footer-bg.jpg");

@@ -12,6 +12,7 @@
 <body>
     @include("partials/header")
     @include("partials/jumbo")
+    @include("partials/products")
     @include("partials/footer")
 </body>
 </html>

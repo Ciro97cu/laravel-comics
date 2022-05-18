@@ -60,6 +60,28 @@ header ul a:hover {
   left: 50px;
 }
 
+.container_bg_blue {
+  background-color: #0282f9;
+}
+
+.container_bg_blue .container_footer_images {
+  color: white;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+
+.container_bg_blue .container_footer_images .wrapper_footer_images {
+  height: 50px;
+}
+
+.container_bg_blue .container_footer_images .wrapper_footer_images img {
+  height: 100%;
+}
+
+.container_bg_blue .container_footer_images .wrapper_footer_images .special_image {
+  height: 65%;
+}
+
 footer .jumbo_footer {
   background-image: url("/images/footer-bg.jpg");
   background-repeat: repeat-x;
