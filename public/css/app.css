@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+header ul {
+  padding-top: 39.5px;
+}
+
+header ul a {
+  font-size: 13px;
+  font-weight: 700;
+  color: #1c1c1c;
+  padding-bottom: 54px;
+  transition: all 0.25s linear;
+}
+
+header ul a:hover {
+  color: #0282f9;
+  border-bottom: 5px solid #0282f9;
+}
+
