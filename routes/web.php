@@ -14,5 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('index');
+    $comicsArray = config('comics');
+    return view('partials.home', ["array" => $comicsArray]);
+});
+
+Route::get('/card', function () {
+    $comicsArray = config('comics');
+    return view('partials.homeCard', ["array" => $comicsArray]);
 });

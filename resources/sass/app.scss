@@ -38,6 +38,34 @@ header {
     }
 }
 
+main {
+    .container_cards {
+        background-color: $background-color-dark;
+
+        .tag_load {
+            font-size: 16px;
+            color: $text-color-white;
+            font-weight: 600;
+            background-color: $background-color-blue;
+            padding: 10px 70px;
+            cursor: pointer;
+            transition: transform 0.25s ease-in-out;
+
+            &:hover {
+                transform: scale(1.05);
+            }
+        }
+    }
+
+    p {
+        color: $text-color-white;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
 .container_bg_blue {
     background-color: $background-color-blue;
 
@@ -96,6 +124,10 @@ footer {
             color: $text-color-white;
             padding: 10px;
             border: 2px solid $background-color-blue;
+
+            &:hover {
+                background-color: $background-color-blue;
+            }
         }
 
         .follow_footer {

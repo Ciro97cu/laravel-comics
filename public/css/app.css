@@ -60,6 +60,32 @@ header ul a:hover {
   left: 50px;
 }
 
+main .container_cards {
+  background-color: #1c1c1c;
+}
+
+main .container_cards .tag_load {
+  font-size: 16px;
+  color: white;
+  font-weight: 600;
+  background-color: #0282f9;
+  padding: 10px 70px;
+  cursor: pointer;
+  transition: transform 0.25s ease-in-out;
+}
+
+main .container_cards .tag_load:hover {
+  transform: scale(1.05);
+}
+
+main p {
+  color: white;
+}
+
+main img {
+  width: 100%;
+}
+
 .container_bg_blue {
   background-color: #0282f9;
 }
@@ -117,6 +143,10 @@ footer .footer_socials .sign_up_footer {
   color: white;
   padding: 10px;
   border: 2px solid #0282f9;
+}
+
+footer .footer_socials .sign_up_footer:hover {
+  background-color: #0282f9;
 }
 
 footer .footer_socials .follow_footer {
