@@ -15,10 +15,12 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     $comicsArray = config('comics');
-    return view('partials.home', ["array" => $comicsArray]);
+    $linkArray = config('navLink');
+    return view('partials.home', ["array" => $comicsArray, "navLink" => $linkArray]);
 });
 
-Route::get('/card', function () {
+Route::get('/card/{id}', function ($id) {
     $comicsArray = config('comics');
-    return view('partials.homeCard', ["array" => $comicsArray]);
+    $linkArray = config('navLink');
+    return view('partials.homeCard', ["array" => $comicsArray[$id], "navLink" => $linkArray]);
 });

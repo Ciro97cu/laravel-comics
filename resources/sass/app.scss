@@ -2,15 +2,27 @@
 @import "_variables";
 
 header {
+    .dc_head {
+        background-color: $background-color-blue;
+    }
+
+    .logo_wrapper {
+        width: 100%;
+
+        img {
+            width: 100%;
+        }
+    }
+
     ul {
-        padding-top: 39.5px;
+        padding-top: 27.5px;
 
         a {
             font-size: 13px;
             font-weight: 700;
             color: $text-color-dark;
-            padding-bottom: 54px;
             transition: all 0.25s linear;
+            padding-bottom: 33px;
 
             &:hover {
                 color: $background-color-blue;
@@ -18,29 +30,66 @@ header {
             }
         }
     }
+
+    input {
+        text-align: end;
+        margin-top: 27.5px;
+        border: none;
+        border-bottom: 2px solid $background-color-blue;
+
+        &::placeholder {
+            text-align: end;
+            font-family: FontAwesome;
+        }
+
+        &:focus-visible {
+            outline: none;
+        }
+    }
 }
 
 #jumbotron {
     background-image: url("/images/jumbotron.jpg");
     background-size: cover;
-    height: 350px;
-    position: relative;
-
-    .tag_series {
-        font-size: 16px;
-        color: $text-color-white;
-        font-weight: 600;
-        background-color: $background-color-blue;
-        padding: 10px 15px;
-        position: absolute;
-        bottom: -22px;
-        left: 50px;
-    }
+    height: 400px;
 }
 
 main {
+    .blue_div {
+        height: 70px;
+        background-color: $background-color-blue;
+
+        .container-sm {
+            position: relative;
+
+            .card_absolute {
+                position: absolute;
+                top: -240px;
+                left: 0px;
+            }
+        }
+
+    }
+
     .container_cards {
         background-color: $background-color-dark;
+
+        .container-sm {
+            position: relative;
+
+            .tag_series {
+                font-size: 16px;
+                color: $text-color-white;
+                font-weight: 600;
+                background-color: $background-color-blue;
+                padding: 10px 15px;
+                position: absolute;
+                top: -47px;
+                left: 0px;
+            }
+
+
+        }
 
         .tag_load {
             font-size: 16px;
@@ -55,6 +104,31 @@ main {
                 transform: scale(1.05);
             }
         }
+
+    }
+
+    .container_single_card {
+        background-color: white;
+        @extend .container_cards;
+
+        .light_green {
+            color: $text-color-light_green;
+            font-weight: 500;
+        }
+
+        .price_info {
+            background-color: $background-color-green;
+            border-top: 1.5px solid green;
+            border-bottom: 1.5px solid green;
+
+            .col-sm-8 {
+                border-right: 1.5px solid green;
+            }
+        }
+
+        .description_card {
+            color: $text-color-grey;
+        }
     }
 
     p {
@@ -63,6 +137,41 @@ main {
 
     img {
         width: 100%;
+    }
+}
+
+.info_card_container {
+    background-color: $background-color-grey;
+
+    h2 {
+        border-bottom: 1px solid $text-color-grey2;
+    }
+
+    .border_bottom {
+        @extend h2;
+        padding: 10px 0;
+    }
+
+    .tag_back {
+        transition: transform 0.25s ease-in-out;
+
+        a {
+            font-size: 16px;
+            color: $text-color-white;
+            font-weight: 600;
+            padding: 10px 70px;
+            background-color: $background-color-blue;
+            cursor: pointer;
+        }
+
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+
+    .link_blue {
+        color: $background-color-blue;
+        font-weight: 500;
     }
 }
 
