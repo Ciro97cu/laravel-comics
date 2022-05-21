@@ -82,9 +82,16 @@ header input:focus-visible {
 }
 
 #jumbotron {
-  background-image: url("/images/jumbotron.jpg");
-  background-size: cover;
   height: 400px;
+}
+
+#jumbotron img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
 }
 
 main .blue_div {

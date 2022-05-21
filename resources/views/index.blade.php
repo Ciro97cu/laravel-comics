@@ -16,5 +16,6 @@
     @yield('main')
     @include("partials/products")
     @include("partials/footer")
+    <script src="js/carousel.js"></script>
 </body>
 </html>
